@@ -1,11 +1,22 @@
+body {
+    background-color: #007bff; /* Couleur de fond bleu */
+    color: white; /* Couleur du texte par défaut en blanc */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond des cartes légèrement transparent */
+}
+
 .card img {
     width: 180px; /* Largeur fixe de l'image */
     height: 250px; /* Hauteur fixe de l'image */
     object-fit: cover; /* Pour s'assurer que l'image garde ses proportions */
 }
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px; /* Hauteur de la carte pour centrer verticalement */
+
+.btn-light {
+    background-color: #007bff; /* Couleur de fond */
+}
+
+.text-white {
+    color: white; /* Texte en blanc */
 }

@@ -1,17 +1,142 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Liste des séries TV</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Liste des séries TV</h1>
+        <div class="row">
+            <!-- Carte 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image1.jpg" class="card-img-top" alt="Film 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 1</h5>
+                        <p class="card-text">Année: 2021</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light" onclick="colorize(this)">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="votre-image.jpg" class="card-img-top" alt="Description de l'image">
-                <div class="card-body">
-                    <h5 class="card-title">Titre de la carte</h5>
-                    <p class="card-text">Texte descriptif de la carte.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Répétez pour les autres cartes -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image2.jpg" class="card-img-top" alt="Film 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 2</h5>
+                        <p class="card-text">Année: 2022</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light" onclick="colorize(this)">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image3.jpg" class="card-img-top" alt="Film 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 3</h5>
+                        <p class="card-text">Année: 2023</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Ajoutez d'autres cartes ici -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image4.jpg" class="card-img-top" alt="Film 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 4</h5>
+                        <p class="card-text">Année: 2020</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image5.jpg" class="card-img-top" alt="Film 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 5</h5>
+                        <p class="card-text">Année: 2019</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image6.jpg" class="card-img-top" alt="Film 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 6</h5>
+                        <p class="card-text">Année: 2018</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image7.jpg" class="card-img-top" alt="Film 7">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 7</h5>
+                        <p class="card-text">Année: 2017</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image8.jpg" class="card-img-top" alt="Film 8">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 8</h5>
+                        <p class="card-text">Année: 2016</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="img/image9.jpg" class="card-img-top" alt="Film 9">
+                    <div class="card-body">
+                        <h5 class="card-title">Titre du Film 9</h5>
+                        <p class="card-text">Année: 2015</p>
+                        <p class="card-text">Ceci est un texte descriptif fictif.</p>
+                        <button class="btn btn-light">
+                            <span class="text-white">👍 J'aime</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Ajoutez d'autres colonnes de carte ici -->
     </div>
-</div>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
