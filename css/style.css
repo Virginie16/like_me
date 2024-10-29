@@ -1,0 +1,11 @@
+.card img {
+    width: 180px; /* Largeur fixe de l'image */
+    height: 250px; /* Hauteur fixe de l'image */
+    object-fit: cover; /* Pour s'assurer que l'image garde ses proportions */
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Hauteur de la carte pour centrer verticalement */
+}
